@@ -2,7 +2,11 @@
 
 A clean, structured Python CLI application to place orders on the **Binance Futures Testnet / Demo Trading** (`https://demo-fapi.binance.com`).
 
-### 🎥 [Watch the Live Demo Video Here](./demo.mp4)
+
+
+https://github.com/user-attachments/assets/98d27666-bc0b-4fbc-9a03-ff73214d8cef
+
+
 
 ---
 
