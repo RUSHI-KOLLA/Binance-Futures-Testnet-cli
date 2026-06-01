@@ -1,0 +1,48 @@
+2026-06-01 17:06:00,477 | INFO     | orders.py:62 | ✓ All inputs validated successfully.
+2026-06-01 17:06:00,478 | DEBUG    | orders.py:92 | Dispatching MARKET BUY for 0.050000 BTCUSDT
+2026-06-01 17:06:00,478 | INFO     | client.py:223 | Placing MARKET BUY order for 0.05 BTCUSDT …
+2026-06-01 17:06:01,112 | DEBUG    | client.py:124 | REQ  POST https://testnet.binancefuture.com/fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.05', 'timestamp': 1780313760928, 'signature': '***'}
+2026-06-01 17:06:01,113 | DEBUG    | client.py:131 | RESP 200  body={"orderId": 662052009, "symbol": "BTCUSDT", "status": "FILLED", "clientOrderId": "bot_662052009", "price": "0.00", "avgPrice": "50000.00", "origQty": "0.05", "executedQty": "0.05", "cumQty": "0.05", "cumQuote": "2500.0", "timeInForce": "GTC", "type": "MARKET", "reduceOnly": false, "side": "BUY", "positionSide": "BOTH", "stopPrice": "0.00", "workingType": "CONTRACT_PRICE", "origType": "MARKET", "updateTime": 1780313761113}
+2026-06-01 17:06:01,114 | INFO     | orders.py:136 | Order success — ID: 662052009, Status: FILLED
+2026-06-01 17:06:22,077 | INFO     | orders.py:62 | ✓ All inputs validated successfully.
+2026-06-01 17:06:22,078 | DEBUG    | orders.py:92 | Dispatching LIMIT SELL for 0.050000 BTCUSDT
+2026-06-01 17:06:22,078 | INFO     | client.py:223 | Placing LIMIT SELL order for 0.05 BTCUSDT …
+2026-06-01 17:06:22,337 | DEBUG    | client.py:124 | REQ  POST https://testnet.binancefuture.com/fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.05', 'price': '60000.0', 'timeInForce': 'GTC', 'timestamp': 1780313782227, 'signature': '***'}
+2026-06-01 17:06:22,338 | DEBUG    | client.py:131 | RESP 200  body={"orderId": 262030110, "symbol": "BTCUSDT", "status": "NEW", "clientOrderId": "bot_262030110", "price": "60000.0", "avgPrice": "0.00", "origQty": "0.05", "executedQty": "0.00", "cumQty": "0.00", "cumQuote": "0.00", "timeInForce": "GTC", "type": "LIMIT", "reduceOnly": false, "side": "SELL", "positionSide": "BOTH", "stopPrice": "0.00", "workingType": "CONTRACT_PRICE", "origType": "LIMIT", "updateTime": 1780313782338}
+2026-06-01 17:06:22,339 | INFO     | orders.py:136 | Order success — ID: 262030110, Status: NEW
+2026-06-01 18:03:42,603 | INFO     | orders.py:62 | ✓ All inputs validated successfully.
+2026-06-01 18:03:42,613 | DEBUG    | orders.py:92 | Dispatching MARKET SELL for 1.000000 BTCUSDT
+2026-06-01 18:03:42,614 | INFO     | client.py:223 | Placing MARKET SELL order for 1.0 BTCUSDT …
+2026-06-01 18:03:42,849 | DEBUG    | client.py:124 | REQ  POST https://testnet.binancefuture.com/fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': '1.0', 'timestamp': 1780317222726, 'signature': '***'}
+2026-06-01 18:03:42,850 | DEBUG    | client.py:131 | RESP 200  body={"orderId": 777716699, "symbol": "BTCUSDT", "status": "FILLED", "clientOrderId": "bot_777716699", "price": "0.00", "avgPrice": "50000.00", "origQty": "1.0", "executedQty": "1.0", "cumQty": "1.0", "cumQuote": "50000.0", "timeInForce": "GTC", "type": "MARKET", "reduceOnly": false, "side": "SELL", "positionSide": "BOTH", "stopPrice": "0.00", "workingType": "CONTRACT_PRICE", "origType": "MARKET", "updateTime": 1780317222850}
+2026-06-01 18:03:42,850 | INFO     | orders.py:136 | Order success — ID: 777716699, Status: FILLED
+2026-06-01 18:10:35,954 | INFO     | orders.py:62 | ✓ All inputs validated successfully.
+2026-06-01 18:10:35,955 | DEBUG    | orders.py:92 | Dispatching MARKET BUY for 0.001000 BTCUSDT
+2026-06-01 18:10:35,955 | INFO     | client.py:223 | Placing MARKET BUY order for 0.001 BTCUSDT …
+2026-06-01 18:10:36,556 | DEBUG    | client.py:149 | REQ  POST https://testnet.binancefuture.com/fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1780317636436, 'signature': '***'}
+2026-06-01 18:10:36,746 | DEBUG    | client.py:159 | RESP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-06-01 18:10:36,747 | ERROR    | orders.py:141 | ✗ API error [-2015]: Invalid API-key, IP, or permissions for action
+2026-06-01 18:23:32,275 | INFO     | orders.py:62 | ✓ All inputs validated successfully.
+2026-06-01 18:23:32,275 | DEBUG    | orders.py:92 | Dispatching MARKET BUY for 0.001000 BTCUSDT
+2026-06-01 18:23:32,275 | INFO     | client.py:223 | Placing MARKET BUY order for 0.001 BTCUSDT …
+2026-06-01 18:23:32,687 | DEBUG    | client.py:149 | REQ  POST https://demo-fapi.binance.com/fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1780318412570, 'signature': '***'}
+2026-06-01 18:23:33,070 | DEBUG    | client.py:159 | RESP 401  body={"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-06-01 18:23:33,070 | ERROR    | orders.py:141 | ✗ API error [-2015]: Invalid API-key, IP, or permissions for action
+2026-06-01 18:28:04,302 | INFO     | orders.py:62 | ✓ All inputs validated successfully.
+2026-06-01 18:28:04,302 | DEBUG    | orders.py:92 | Dispatching MARKET BUY for 0.001000 BTCUSDT
+2026-06-01 18:28:04,302 | INFO     | client.py:223 | Placing MARKET BUY order for 0.001 BTCUSDT …
+2026-06-01 18:28:04,694 | DEBUG    | client.py:149 | REQ  POST https://demo-fapi.binance.com/fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1780318684582, 'signature': '***'}
+2026-06-01 18:28:05,062 | DEBUG    | client.py:159 | RESP 200  body={"orderId":13697392434,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"wBzTdZVEun99t7clw4LFvy","price":"0.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1780318684952}
+2026-06-01 18:28:05,064 | INFO     | orders.py:136 | Order success — ID: 13697392434, Status: NEW
+2026-06-01 18:28:20,795 | INFO     | orders.py:62 | ✓ All inputs validated successfully.
+2026-06-01 18:28:20,795 | DEBUG    | orders.py:92 | Dispatching LIMIT BUY for 0.001000 BTCUSDT
+2026-06-01 18:28:20,795 | INFO     | client.py:223 | Placing LIMIT BUY order for 0.001 BTCUSDT …
+2026-06-01 18:28:21,205 | DEBUG    | client.py:149 | REQ  POST https://demo-fapi.binance.com/fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '50000.0', 'timeInForce': 'GTC', 'timestamp': 1780318701088, 'signature': '***'}
+2026-06-01 18:28:21,743 | DEBUG    | client.py:159 | RESP 200  body={"orderId":13697407191,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"S9FoKzFFyQ6bRKn8KKOsu8","price":"50000.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1780318701571}
+2026-06-01 18:28:21,747 | INFO     | orders.py:136 | Order success — ID: 13697407191, Status: NEW
+2026-06-01 18:40:19,095 | INFO     | orders.py:62 | ✓ All inputs validated successfully.
+2026-06-01 18:40:19,096 | DEBUG    | orders.py:92 | Dispatching MARKET BUY for 0.001000 BTCUSDT
+2026-06-01 18:40:19,096 | INFO     | client.py:223 | Placing MARKET BUY order for 0.001 BTCUSDT …
+2026-06-01 18:40:19,689 | DEBUG    | client.py:149 | REQ  POST https://demo-fapi.binance.com/fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1780319419502, 'signature': '***'}
+2026-06-01 18:40:20,299 | DEBUG    | client.py:159 | RESP 200  body={"orderId":13698272828,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"mHb6B7WBaL30HpSPhllpBT","price":"0.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1780319420114}
+2026-06-01 18:40:20,301 | INFO     | orders.py:136 | Order success — ID: 13698272828, Status: NEW

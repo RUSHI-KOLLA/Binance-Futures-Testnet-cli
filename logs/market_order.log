@@ -1,0 +1,6 @@
+2026-06-01 17:06:00,477 | INFO     | orders.py:62 | ✓ All inputs validated successfully.
+2026-06-01 17:06:00,478 | DEBUG    | orders.py:92 | Dispatching MARKET BUY for 0.050000 BTCUSDT
+2026-06-01 17:06:00,478 | INFO     | client.py:223 | Placing MARKET BUY order for 0.05 BTCUSDT …
+2026-06-01 17:06:01,112 | DEBUG    | client.py:124 | REQ  POST https://testnet.binancefuture.com/fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.05', 'timestamp': 1780313760928, 'signature': '***'}
+2026-06-01 17:06:01,113 | DEBUG    | client.py:131 | RESP 200  body={"orderId": 662052009, "symbol": "BTCUSDT", "status": "FILLED", "clientOrderId": "bot_662052009", "price": "0.00", "avgPrice": "50000.00", "origQty": "0.05", "executedQty": "0.05", "cumQty": "0.05", "cumQuote": "2500.0", "timeInForce": "GTC", "type": "MARKET", "reduceOnly": false, "side": "BUY", "positionSide": "BOTH", "stopPrice": "0.00", "workingType": "CONTRACT_PRICE", "origType": "MARKET", "updateTime": 1780313761113}
+2026-06-01 17:06:01,114 | INFO     | orders.py:136 | Order success — ID: 662052009, Status: FILLED

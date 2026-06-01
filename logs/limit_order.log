@@ -1,0 +1,6 @@
+2026-06-01 17:06:22,077 | INFO     | orders.py:62 | ✓ All inputs validated successfully.
+2026-06-01 17:06:22,078 | DEBUG    | orders.py:92 | Dispatching LIMIT SELL for 0.050000 BTCUSDT
+2026-06-01 17:06:22,078 | INFO     | client.py:223 | Placing LIMIT SELL order for 0.05 BTCUSDT …
+2026-06-01 17:06:22,337 | DEBUG    | client.py:124 | REQ  POST https://testnet.binancefuture.com/fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.05', 'price': '60000.0', 'timeInForce': 'GTC', 'timestamp': 1780313782227, 'signature': '***'}
+2026-06-01 17:06:22,338 | DEBUG    | client.py:131 | RESP 200  body={"orderId": 262030110, "symbol": "BTCUSDT", "status": "NEW", "clientOrderId": "bot_262030110", "price": "60000.0", "avgPrice": "0.00", "origQty": "0.05", "executedQty": "0.00", "cumQty": "0.00", "cumQuote": "0.00", "timeInForce": "GTC", "type": "LIMIT", "reduceOnly": false, "side": "SELL", "positionSide": "BOTH", "stopPrice": "0.00", "workingType": "CONTRACT_PRICE", "origType": "LIMIT", "updateTime": 1780313782338}
+2026-06-01 17:06:22,339 | INFO     | orders.py:136 | Order success — ID: 262030110, Status: NEW
